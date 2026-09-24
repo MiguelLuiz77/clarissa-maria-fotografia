@@ -47,6 +47,7 @@ const galleryTitles = {
   "festa-infantil": "Festa Infantil",
   "quinze-anos": "15 Anos",
   "pre-wedding": "Pré-wedding",
+  "cha-revelacao": "Chá Revelação",
 };
 
 const galleryFiles = {
@@ -61,6 +62,7 @@ const galleryFiles = {
   "festa-infantil": ["festa-infantil.jpg", "festa-infantil-02.jpg", "festa-infantil-03.jpg", "festa-infantil-04.jpg"],
   "quinze-anos": ["quinze-anos.jpg", "quinze-anos-02.jpg", "quinze-anos-03.jpg", "quinze-anos-04.jpg"],
   "pre-wedding": ["pre-wedding.jpg", "pre-wedding-02.jpg", "pre-wedding-03.jpg", "pre-wedding-04.jpg"],
+  "cha-revelacao": ["cha-revelacao.jpg", "cha-revelacao-02.jpg", "cha-revelacao-03.jpg", "cha-revelacao-04.jpg"],
 };
 
 const galleries = Object.fromEntries(

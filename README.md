@@ -26,6 +26,7 @@ O site usa somente as fotografias e imagens de identidade enviadas pelo cliente:
 - `assets/festa-infantil.jpg`
 - `assets/quinze-anos.jpg`
 - `assets/pre-wedding.jpg`
+- `assets/cha-revelacao.jpg`
 - `assets/fotografa-clarissa.jpg`
 
 Não há imagens de banco, imagens geradas ou imagens da referência no pacote. A foto da fotógrafa aparece exclusivamente na seção “Sobre”. O logo “Clarear Wedding” foi removido da interface do site.
@@ -45,6 +46,7 @@ Cada card da seção “Portfólio” abre uma galeria própria com setas, minia
 - Festa Infantil — 4 fotos
 - 15 Anos — 4 fotos
 - Pré-wedding — 4 fotos
+- Chá Revelação — 4 fotos
 
 Cada tipo de ensaio também possui o botão “Agendar este ensaio”. Ele abre o WhatsApp da fotógrafa com uma mensagem inicial já identificando a categoria escolhida.
 

@@ -92,6 +92,7 @@ h1 { max-width: 780px; margin: 0 auto 1.35rem; font-size: clamp(3.25rem, 7vw, 6.
 .service-card:nth-child(9) .service-photo img { object-position: 50% 46%; }
 .service-card:nth-child(10) .service-photo img { object-position: 50% 34%; }
 .service-card:nth-child(11) .service-photo img { object-position: 50% 50%; }
+.service-card:nth-child(12) .service-photo img { object-position: 50% 50%; }
 .service-card:hover .service-photo img { transform: scale(1.04); }
 .photo-gallery-hint { position: absolute; right: 1rem; bottom: 1rem; padding: .45rem .7rem; color: #fff; background: rgba(23,26,31,.78); font-size: .66rem; font-weight: 700; letter-spacing: .08em; opacity: 0; transform: translateY(5px); transition: opacity .25s ease, transform .25s ease; text-transform: uppercase; }
 .gallery-trigger:hover .photo-gallery-hint, .gallery-trigger:focus-visible .photo-gallery-hint { opacity: 1; transform: translateY(0); }
