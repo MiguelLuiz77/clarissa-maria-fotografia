@@ -23,13 +23,16 @@ O site usa somente as fotografias e imagens de identidade enviadas pelo cliente:
 - `assets/ensaio-newborn.jpg`
 - `assets/ensaio-familia.jpg`
 - `assets/ensaio-formandos.jpg`
+- `assets/festa-infantil.jpg`
+- `assets/quinze-anos.jpg`
+- `assets/pre-wedding.jpg`
 - `assets/fotografa-clarissa.jpg`
 
 Não há imagens de banco, imagens geradas ou imagens da referência no pacote. A foto da fotógrafa aparece exclusivamente na seção “Sobre”. O logo “Clarear Wedding” foi removido da interface do site.
 
 ## Galerias
 
-Cada card da seção “Mais tipos de ensaio” abre uma galeria própria com setas, miniaturas, contador e fechamento pelo botão, clique fora ou tecla `Esc`:
+Cada card da seção “Portfólio” abre uma galeria própria com setas, miniaturas, contador e fechamento pelo botão, clique fora ou tecla `Esc`:
 
 - Ensaio de casal — 4 fotos
 - Casamento — 4 fotos
@@ -39,6 +42,9 @@ Cada card da seção “Mais tipos de ensaio” abre uma galeria própria com se
 - Ensaio newborn — 4 fotos
 - Ensaio de família — 4 fotos
 - Ensaio de formandos — 4 fotos
+- Festa Infantil — 4 fotos
+- 15 Anos — 4 fotos
+- Pré-wedding — 4 fotos
 
 Cada tipo de ensaio também possui o botão “Agendar este ensaio”. Ele abre o WhatsApp da fotógrafa com uma mensagem inicial já identificando a categoria escolhida.
 
@@ -48,4 +54,4 @@ As galerias usam somente as fotos enviadas pelo cliente. As imagens adicionais f
 
 O botão de agendamento abre o WhatsApp `+55 12 98117-4527` com uma mensagem inicial para marcar o ensaio.
 
-O botão “Instagram da fotógrafa” aponta diretamente para [@clarear_wedding](https://www.instagram.com/clarear_wedding?stkn=MWtoZW1kbWw0cG1udw==).
+O botão “Instagram da fotógrafa” aponta diretamente para [@clarissa.maria.fotografia](https://www.instagram.com/clarissa.maria.fotografia/).

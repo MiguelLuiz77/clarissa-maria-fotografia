@@ -44,6 +44,9 @@ const galleryTitles = {
   newborn: "Ensaio newborn",
   familia: "Ensaio de família",
   formandos: "Ensaio de formandos",
+  "festa-infantil": "Festa Infantil",
+  "quinze-anos": "15 Anos",
+  "pre-wedding": "Pré-wedding",
 };
 
 const galleryFiles = {
@@ -55,6 +58,9 @@ const galleryFiles = {
   newborn: ["ensaio-newborn.jpg", "newborn-02.jpg", "newborn-03.jpg", "newborn-04.jpg"],
   familia: ["ensaio-familia.jpg", "familia-02.jpg", "familia-03.jpg", "familia-04.jpg"],
   formandos: ["ensaio-formandos.jpg", "formandos-02.jpg", "formandos-03.jpg", "formandos-04.jpg"],
+  "festa-infantil": ["festa-infantil.jpg", "festa-infantil-02.jpg", "festa-infantil-03.jpg", "festa-infantil-04.jpg"],
+  "quinze-anos": ["quinze-anos.jpg", "quinze-anos-02.jpg", "quinze-anos-03.jpg", "quinze-anos-04.jpg"],
+  "pre-wedding": ["pre-wedding.jpg", "pre-wedding-02.jpg", "pre-wedding-03.jpg", "pre-wedding-04.jpg"],
 };
 
 const galleries = Object.fromEntries(

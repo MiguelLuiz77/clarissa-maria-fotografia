@@ -14,9 +14,13 @@
 }
 
 * { box-sizing: border-box; }
-html { scroll-behavior: smooth; }
-body { margin: 0; color: var(--ink); background: var(--paper); font-family: var(--sans); font-size: 16px; line-height: 1.7; }
+html { min-height: 100%; overflow-y: auto; scroll-behavior: smooth; scrollbar-color: var(--gold) var(--cream); scrollbar-width: thin; }
+body { min-height: 100%; margin: 0; overflow-x: hidden; overflow-y: auto; color: var(--ink); background: var(--paper); font-family: var(--sans); font-size: 16px; line-height: 1.7; }
 body.menu-open, body.gallery-open { overflow: hidden; }
+html::-webkit-scrollbar { width: 10px; }
+html::-webkit-scrollbar-track { background: var(--cream); }
+html::-webkit-scrollbar-thumb { background: var(--gold); border: 2px solid var(--cream); border-radius: 999px; }
+html::-webkit-scrollbar-thumb:hover { background: var(--ink); }
 img { display: block; max-width: 100%; }
 a { color: inherit; text-decoration: none; }
 button, a { -webkit-tap-highlight-color: transparent; }
@@ -86,6 +90,8 @@ h1 { max-width: 780px; margin: 0 auto 1.35rem; font-size: clamp(3.25rem, 7vw, 6.
 .service-card:nth-child(7) .service-photo img { object-position: 50% 50%; }
 .service-card:nth-child(8) .service-photo img { object-position: 50% 50%; }
 .service-card:nth-child(9) .service-photo img { object-position: 50% 46%; }
+.service-card:nth-child(10) .service-photo img { object-position: 50% 34%; }
+.service-card:nth-child(11) .service-photo img { object-position: 50% 50%; }
 .service-card:hover .service-photo img { transform: scale(1.04); }
 .photo-gallery-hint { position: absolute; right: 1rem; bottom: 1rem; padding: .45rem .7rem; color: #fff; background: rgba(23,26,31,.78); font-size: .66rem; font-weight: 700; letter-spacing: .08em; opacity: 0; transform: translateY(5px); transition: opacity .25s ease, transform .25s ease; text-transform: uppercase; }
 .gallery-trigger:hover .photo-gallery-hint, .gallery-trigger:focus-visible .photo-gallery-hint { opacity: 1; transform: translateY(0); }
@@ -101,19 +107,6 @@ h1 { max-width: 780px; margin: 0 auto 1.35rem; font-size: clamp(3.25rem, 7vw, 6.
 .service-booking:hover, .service-booking:focus-visible { color: var(--ink) !important; background: transparent; transform: translateY(-2px); }
 .gallery-link { display: inline-flex; align-items: center; gap: .65rem; align-self: flex-start; margin-top: auto; padding: 0; border: 0; color: var(--gold); background: transparent; cursor: pointer; font-family: inherit; font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
 .gallery-link:hover, .gallery-link:focus-visible { color: var(--ink); }
-
-.portfolio-section { padding-bottom: 8rem; }
-.portfolio-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 1rem; }
-.portfolio-card { position: relative; min-height: 370px; overflow: hidden; background: var(--ink); }
-.portfolio-card-tall { min-height: 555px; }
-.portfolio-card img { width: 100%; height: 100%; object-fit: cover; transition: transform .6s ease, filter .6s ease; }
-.portfolio-card:nth-child(1) img { object-position: 52% 36%; }
-.portfolio-card:nth-child(2) img { object-position: 50% 42%; }
-.portfolio-card:nth-child(3) img { object-position: 50% 40%; }
-.portfolio-card:nth-child(4) img { object-position: 50% 54%; }
-.portfolio-card::after { position: absolute; inset: 0; content: ""; background: linear-gradient(180deg, transparent 40%, rgba(0,0,0,.66)); }
-.portfolio-card span { position: absolute; z-index: 1; left: 1.3rem; bottom: 1.2rem; color: #fff; font-family: var(--serif); font-size: 1.45rem; }
-.portfolio-card:hover img, .portfolio-card:focus-visible img { transform: scale(1.04); filter: saturate(1.05); }
 
 .about-section { padding: 8rem 0; }
 .about-grid { display: grid; grid-template-columns: .9fr 1.1fr; align-items: center; gap: clamp(3rem, 9vw, 9rem); }
@@ -216,10 +209,9 @@ h1 { max-width: 780px; margin: 0 auto 1.35rem; font-size: clamp(3.25rem, 7vw, 6.
   .hero-text { font-size: .94rem; }
   .section { padding: 5rem 0; }
   .section-heading { margin-bottom: 2.8rem; }
-  .service-grid, .portfolio-grid, .about-grid, .faq-grid, .contact-section { grid-template-columns: 1fr; }
+  .service-grid, .about-grid, .faq-grid, .contact-section { grid-template-columns: 1fr; }
   .service-photo { height: 210px; }
   .service-content { min-height: 230px; }
-  .portfolio-card, .portfolio-card-tall { min-height: 420px; }
   .about-section { padding: 5.5rem 0; }
   .about-brand-circle { max-width: 280px; }
   .testimonial-mark { right: 0; bottom: -4rem; font-size: 9rem; }
